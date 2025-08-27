@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#calculator {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+body {
+    font-family: 'Comic Neue', sans-serif;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.navbar {
+    margin-bottom: auto;
+}
+
+h1 {
+    transition: color 0.6s;
+}
+
+.clock-top-right {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000; /* Adjust based on your theme */
+    z-index: 1000; /* Ensures the clock is on top of other elements */
+}
+
+#greetingMessage {
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color 0.4s;
+    margin-top: 10px;
+    color: white !important; /* Force the color to white */
+    animation: slideIn 1s ease-out; /* 1s duration with ease-out effect */
+    display: none; /* Initially hidden */
+}
+
+/* Define the sliding animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#calculator {
+    margin-top: auto;
+}
+
+#calculator .btn-group .btn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-top: auto;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Center header content */
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color for contrast */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+/* Logo and title container */
+#logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and title */
+}
+
+/* Logo styling */
+#logo {
+    max-width: 250px; /* Adjusts dynamically */
+    max-height: auto;
+    object-fit: contain; /* Prevents distortion */
+    border-radius: 50%; /* Optional: Adds rounded edges */
+}
+
+/* Title styling */
+#title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000; /* Adapt based on your theme */
+    margin: 0;
+}
+
+/* Styles for input fields */
+input.form-control {
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px; /* Add padding */
+}
+
+.large-input {
+    font-size: 1.5rem; /* Larger font size */
+    padding: 15px; /* More padding for better visibility */
+}
+
+.showcase-text {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+/* Larger input fields */
+.large-input, #num1, #num2 {
+    font-size: 1.5rem; /* Larger font size */
+    padding: 15px; /* More padding for better visibility */
+}
+
+/* Larger and more prominent buttons */
+button.btn {
+    font-size: 1.5rem; /* Increase font size */
+    padding: 15px 25px; /* Add more padding */
+}
+
+/* Specific styles for the greeting message */
+#greetingMessage {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important; /* Force the color to white */
+    margin-top: 10px;
+    animation: slideIn 1s ease-out; /* Sliding animation */
+    display: none; /* Initially hidden */
+}
+
+/* Define the sliding animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
